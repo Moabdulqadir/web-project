@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data form</title>
+    <link href="form.css"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Data Form</h2>
+    <div class="forms-container">
+        <form>
+            <div class="input-name">
+                <i class="fa fa-user lock"></i>
+                <input type="text" placeholder="Consumer Name" class="name">
+                <span> 
+                <i class="fa fa-user lock"></i>
+                <input type="text" placeholder="Father Name" class="name">
+
+                </span>
+            </div>
+            <div class="input-name">
+                <i class="fa fa-address-card"></i>
+                <input type="text" placeholder="Address(village)" class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa fa-user circle-o"></i>
+                <input type="text" placeholder="Account Id" class="text-name">
+            
+            <span>
+            
+                <i class="fa fa-calculator"></i>
+                <input type="text" placeholder="Meter Id"class="text-name" >
+            
+            </span>
+            </div>
+            <div class="input-name">
+                <i class="fa fa-location-arrow"></i>
+                <input type="text" placeholder="District" class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa fa-line-chart"></i>
+                <input type="text" placeholder="Meter position" class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa fa-book"></i>
+                <input type="text" placeholder="Selling book No." class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa fa-file-text-o"></i>
+                <input type="text" placeholder="Selling page No." class="text-name">
+
+            </div>
+            <div class="input-name">
+                
+               Installation date<br> <input type="date" required class="text-name">
+            </div>
+            <div class="input-name">
+                <i class="fa fa-map-pin"></i>
+                <input type="text" placeholder="Plastic seal" class="text-name">
+            </div>
+            
+                
+                <input type="file" id="real-file" hidden="hidden" />
+                <button type="button" id="custom-button">Choose photo</button>
+                <span id="custom-text">No file. </span>
+            
+            <div class="input-name">
+                <input class="button" type="submit" value="submit">
+                 
+            </div>
+
+            
+        </form>
+    </div>
+    </div>
+
+    
+    <script src="form.js"></script>
+</body>
+</html>
